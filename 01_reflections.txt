@@ -1,0 +1,46 @@
+
+cd ~                          # change directories to your home directory
+mkdir version-control         # make version-control directory
+cd version-control            # go to version-control directory
+mkdir reflections             # create reflections directory
+cd reflections                # go to reflections directory
+
+FC old_name.js new_name.js
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+In the exercise, the FC program identified and highlighted the rows in the script that were different.
+Way cool.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It would make it easier to find things I learned in the process of working on this project if I forget them down the road.  
+Rather than starting from scratch.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved,
+ like Google Docs does?
+
+Being able to make your own decisions on when to save is great.  As long as you don't forget!  An auto-save backup or reminder could help.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Some systems have multiple files that are directly connected.  Others don't.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git Log - shows the commits, times, and messages
+
+git diff id1 id2 - green lines added, red lines deleted
+
+git checkout id - activates that version
+
+How might using version control make you more confident to make changes that could break something?
+
+No risk as you can always go back.  And using git -diff shows you what changes you made that did or did not work.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Python, JS, D3
+
