@@ -6,6 +6,10 @@ You can then choose which ones you want to add.  git status tells you which file
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+working directory is everything in a folder
+repository is storage of  documents you want to track
+staging area is for commits that I want to add to the repository - which may not include all docs
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
