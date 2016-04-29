@@ -13,6 +13,9 @@ staging area is for commits that I want to add to the repository - which may not
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Using git diff, I can directly compare each possible commit with the existing code
+and ensure it is a logical step before proceeding
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
