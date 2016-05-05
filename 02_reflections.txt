@@ -19,10 +19,16 @@ and ensure it is a logical step before proceeding
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Different languages, different delegation of tasks across a team
+
 How do the diagrams help you visualize the branch structure?
+
+It helps to keep track of which branches exist, and where you can get to / from given your current state.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+combines commits made by different people
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
